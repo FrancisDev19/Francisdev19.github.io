@@ -13,9 +13,6 @@
         crossorigin="anonymous" />
     <!--UIKIT-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.6/css/uikit-core.min.css" />
-    <!--GOOGLE FONT-->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Slabo+27px&display=swap"
-        rel="stylesheet" />
     <!--CSS CUSTOM-->
     <link rel="stylesheet" href="css/index.css" />
 </head>
@@ -25,7 +22,7 @@
         <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
             <div class="uk-navbar-right">
                 <ul class="uk-navbar-nav">
-                    <li class="uk-active"><a href="">About</a></li>
+                    <li class="uk-active"><a href="index.html">About</a></li>
                     <li><a href="">Portfolio</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
@@ -41,52 +38,66 @@
                     </div>
                     <div>
                         <h1 class="uk-margin-remove">Yo soy <span class="uk-text-bold">Francis Castillo</span></h1>
-                        <h3 class="uk-margin-remove uk-heading-divider">Programador web</h3>
-                        <table class="uk-table">
-                            <tbody>
-                                <tr>
-                                    <td class="uk-text-bold">Edad</td>
-                                    <td>23</td>
-                                </tr>
-                                <tr>
-                                    <td class="uk-text-bold">Dirección</td>
-                                    <td>La Romana, República Dominicana</td>
-                                </tr>
-                                <tr>
-                                    <td class="uk-text-bold">Correo Electrónico</td>
-                                    <td>xfrancismiguelx@gmail.com</td>
-                                </tr>
-                                <tr>
-                                    <td class="uk-text-bold">Telefono</td>
-                                    <td>809-556-3663</td>
-                                </tr>
-                                <tr>
-                                    <td class="uk-text-bold">Habilidades</td>
-                                    <td>Trabajo en equipo, creativo</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <h3 class="uk-margin-remove uk-heading-divider">Frontend developer</h3>
+                        <div class="uk-overflow-auto">
+                            <table class="uk-table">
+                                <tbody>
+                                    <tr>
+                                        <td class="uk-text-bold">Edad</td>
+                                        <td>23</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="uk-text-bold">Dirección</td>
+                                        <td>La Romana, República Dominicana</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="uk-text-bold">Correo Electrónico</td>
+                                        <td>xfrancismiguelx@gmail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="uk-text-bold">Telefono</td>
+                                        <td>809-556-3663</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="uk-text-bold">Habilidades</td>
+                                        <td>Trabajo en equipo, creativo</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
-                <div class="uk-card-footer uk-flex uk-flex-center">
-                    <a href="https://www.facebook.com/Francissmiguell/"><i
+                <div class="uk-card-footer uk-flex uk-flex-center uk-flex-wrap">
+                    <a href="https://www.facebook.com/Francissmiguell/" target="_blank"><i
                             class="fab fa-facebook uk-icon-large fa-3x uk-padding"></i></a>
-                    <a href="https://www.instagram.com/francissmiguell/"><i
+                    <a href="https://www.instagram.com/francissmiguell/" target="_blank"><i
                             class="fab fa-instagram uk-icon-large fa-3x uk-padding"></i></a>
-                    <a href="https://twitter.com/FrancissMiguell"><i
+                    <a href="https://twitter.com/FrancissMiguell" target="_blank"><i
                             class="fab fa-twitter uk-icon-large fa-3x uk-padding"></i></a>
-                    <a href="#"><i class="fab fa-youtube uk-icon-large fa-3x uk-padding"></i></a>
-                    <a href="#"><i class="fab fa-linkedin uk-icon-large fa-3x uk-padding"></i></a>
+                    <a href="#"><i class="fab fa-github uk-icon-large fa-3x uk-padding"></i></a>
+                    <a href="https://www.linkedin.com/in/francis-castillo-a4998b17b/" target="_blank"><i
+                            class="fab fa-linkedin uk-icon-large fa-3x uk-padding"></i></a>
                 </div>
             </div>
         </section>
 
         <section class="uk-section-small uk-text-center">
             <a href="curriculum/Curriculum Francis.pdf"
-                class="uk-button uk-button-secondary uk-text-uppercase">Descargar CV</a>
+                class="uk-button uk-button-default uk-text-bold uk-text-uppercase">Descargar CV</a>
         </section>
     </div>
 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.0.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.0.1/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.5.6/js/uikit-core.min.js"></script>
 </body>
+
 </html>
